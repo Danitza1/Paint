@@ -14,20 +14,20 @@ from turtle import *
 from freegames import vector
 
 
-def line(start, end):
+def line(start, end): # de donde a donde va el rectangulo ((x, y )en vector star y (x ,y) en vector end )
     """Draw line from start to end."""
-    up()
-    goto(start.x, start.y)
-    down()
-    goto(end.x, end.y)
+    up()#levantar el lapiz 
+    goto(start.x, start.y)#Mueve el lapiz a la coordenada  x, y 
+    down()#Baja el lapiz para empezar a escribir ya en el papel 
+    goto(end.x, end.y)#Regresar el lapiz,  mueve el pen a la pos end x, end y 
 
 
 def square(start, end):
     """Draw square from start to end."""
-    up()
-    goto(start.x, start.y)
-    down()
-    begin_fill()
+    up()#levantar el lapiz 
+    goto(start.x, start.y)#Mueve el lapiz a la posicion o coordenada star x, y 
+    down()#Bjamos el lapiz 
+    begin_fill()#Empieza a rellenar 
 
     for count in range(4):
         forward(end.x - start.x)
@@ -70,18 +70,23 @@ def store(key, value):
 
 
 state = {'start': None, 'shape': line}
+#ancho, alto, startx, stary (posicion de la esq. sup izq de la ventana )
 setup(420, 420, 370, 0)
+#define la funcion que atendera los eventos del mouse se le llama fx callback 
 onscreenclick(tap)
+#Activar  escuchar todos los eventos del teclado 
 listen()
+#Ejecuta la fx sin argumentos, la aejecuta cuanto el usuario oprime la tecla definida en el 2 argumento
 onkey(undo, 'u')
-onkey(lambda: color('black'), 'K')
-onkey(lambda: color('white'), 'W')
+#color(color_del_contorno, color_relleno)
+onkey(lambda: color('black', 'black'), 'K')
+onkey(lambda: color('white', '#A3E4D7'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
-onkey(lambda: store('shape', line), 'l')
+onkey(lambda: store('shape', line), 'l')#store (diccionario)
 onkey(lambda: store('shape', square), 's')
-onkey(lambda: store('shape', circle), 'c')
+onkey(lambda: store('shape', circle), 'c')#Radio 
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
 done()
