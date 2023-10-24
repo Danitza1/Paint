@@ -15,7 +15,7 @@ A00834415
 
 ## Actividad 2 Paint 
 ## Autor: Bruno
-## codigo
+###codigo
 Un color nuevo   
 Dibujar un círculo
 ## codigo
@@ -23,9 +23,9 @@ Completar el rectángulo
 Completar el triángulo
 
 
-# Funciones agregadas: Autor Xochitl 
-## Modificaciones del README 
-## codigo:
+## Autor Xochitl 
+#### Agregar funciones y Modificar  del README 
+### codigo:
 writer= Turtle(visible= False)
 ## Desplegar informacion de los alumnos 
 def info_alumnos():
