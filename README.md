@@ -63,7 +63,7 @@ print("hola")
  [Github Pages](https://pages.github.com/)
 
  # Imagen
- ![Github Pages](https://tec.mx/sites/default/files/repositorio/Home/tec-de-monterrey-newsroom.jpg)
+ ![Github Pages]("C:\Users\marti\Downloads\imagenRepostorio.jpg")
 
  # SemanaTecOct2023
 
