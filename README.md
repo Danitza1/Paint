@@ -1,7 +1,6 @@
-<<<<<<< Updated upstream
-=======
+
 # Paint
->>>>>>> Stashed changes
+
 # SemanaTec2
 # Nombre: Xóchitl Danitza Martínez Ibarra
 # Matricula: A01541822
@@ -16,19 +15,8 @@
 ---
 1. Enchiladas
 2. Tacos🌮
-<<<<<<< Updated upstream
 3. Manzana roja 🍎
 
-=======
-3. Pizza
-
----
-- Piano 🎹
-- Guitarra 🎸
-- Bajo 🎸
-- Violín 🎻
----
->>>>>>> Stashed changes
 ```
 print("hola")
 ```
@@ -72,11 +60,10 @@ print("hola")
  [Github Pages](https://pages.github.com/)
 
  # Imagen
-<<<<<<< Updated upstream
  ![Github Pages](https://www.bing.com/images/search?view=detailV2&ccid=EK6loixl&id=61FB1F6A80112D18BEC005D849F15CC5032AAA63&thid=OIP.EK6loixlAymenfmSPDKkMgHaD8&mediaurl=https%3a%2f%2ftec.mx%2fsites%2fdefault%2ffiles%2fstyles%2fheader_full%2fpublic%2f2018-11%2frectoriaaerea_1.jpg%3fitok%3d2G1yDadJ&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.10aea5a22c6503299e9df9923c32a432%3frik%3dY6oqA8Vc8UnYBQ%26pid%3dImgRaw%26r%3d0&exph=1024&expw=1920&q=tec+de+monterrey&simid=607986177948017530&FORM=IRPRST&ck=5703FCB9BF8A98CA29E9CA3779362A10&selectedIndex=7)
-=======
+
  ![Github Pages]("C:\Users\marti\Downloads\imagenRepostorio.jpg")
->>>>>>> Stashed changes
+
 
  # SemanaTecOct2023
 
@@ -115,7 +102,4 @@ Puedes realizar una lista desordenada al anteceder una o más líneas de texto c
 - [x] #739
 - [ ] 👩
 - [ ] :tada:
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
