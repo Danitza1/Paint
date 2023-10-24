@@ -28,6 +28,7 @@ Completar el triángulo
 ## Autor Xochitl 
 #### Agregar funciones y Modificar  del README agregando el GIF
 ### codigo:
+"""python 
 writer= Turtle(visible= False)
 
 def info_alumnos(): #desplegar informacion de los alumnos 
@@ -45,6 +46,6 @@ def info_alumnos(): #desplegar informacion de los alumnos
     writer.color("green")
     
     writer.write("Xochitl Danitza Martinez Ibarra A01541822", align="left", font=("Arial", 10, "normal"))
-    
+  """
  # GIF Funcionamiento 
 
