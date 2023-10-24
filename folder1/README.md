@@ -29,12 +29,19 @@ Completar el triángulo
 writer= Turtle(visible= False)
 ## Desplegar informacion de los alumnos 
 def info_alumnos():
+
     writer.up()
+    
     writer.goto(0,190)
+    
     writer.color("red")
+    
     writer.write("Bruno Marquez Puig A00834415", align="left", font=("Arial", 10, "normal"))
+    
     writer.goto(0, 170)
+    
     writer.color("green")
+    
     writer.write("Xochitl Danitza Martinez Ibarra A01541822", align="left", font=("Arial", 10, "normal"))
  
 
