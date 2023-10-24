@@ -15,20 +15,22 @@ A00834415
 
 ## Actividad 2 Paint 
 ## Autor: Bruno
-###codigo
-Un color nuevo   
+### codigo
+Un color nuevo  
+
 Dibujar un círculo
 ## codigo
 Completar el rectángulo
+
 Completar el triángulo
 
 
 ## Autor Xochitl 
-#### Agregar funciones y Modificar  del README 
+#### Agregar funciones y Modificar  del README agregando el GIF
 ### codigo:
 writer= Turtle(visible= False)
-## Desplegar informacion de los alumnos 
-def info_alumnos():
+
+def info_alumnos(): #desplegar informacion de los alumnos 
 
     writer.up()
     
@@ -43,5 +45,6 @@ def info_alumnos():
     writer.color("green")
     
     writer.write("Xochitl Danitza Martinez Ibarra A01541822", align="left", font=("Arial", 10, "normal"))
- 
+    
+ # GIF Funcionamiento 
 
