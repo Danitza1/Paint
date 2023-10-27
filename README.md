@@ -1,6 +1,4 @@
 
-# Paint
-
 # SemanaTec2
 # Nombre: Xóchitl Danitza Martínez Ibarra
 # Matricula: A01541822
